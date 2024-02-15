@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Different types of Alert Dialog"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/btnBasicAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/basic_alert_dialog" />
+
+
+            <Button
+                android:id="@+id/btnAlertWithIconsAndCustomize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnBasicAlert"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_icon_and_customization" />
+
+            <Button
+                android:id="@+id/btnAlertWithItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnAlertWithIconsAndCustomize"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_items" />
+            <Button
+                android:id="@+id/btnAlertWithRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnAlertWithItems"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_radio_button" />
+
+            <Button
+                android:id="@+id/btnAlertWithMultiChoiceList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnAlertWithRadio"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_multi_choice_list" />
+
+            <Button
+                android:id="@+id/btnAlertWithStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnAlertWithMultiChoiceList"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_style" />
+
+
+            <Button
+                android:id="@+id/btnAlertWithCustomStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnAlertWithStyle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_custom_style" />
+
+            <Button
+                android:id="@+id/btnAlertWithEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnAlertWithCustomStyle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_edit_text" />
+
+            <Button
+                android:id="@+id/btnAlertWithLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnAlertWithEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/with_layout" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

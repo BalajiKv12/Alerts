@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168671436561",
+    "project_id": "expense-app-743b9",
+    "storage_bucket": "expense-app-743b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168671436561:android:a70758bc89e30ff8fdf6b0",
+        "android_client_info": {
+          "package_name": "com.example.alerts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBokQOPDAUIK4PFKgDkuxJQ-O2Jk_Tkvsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168671436561:android:2d31129a6d99b389fdf6b0",
+        "android_client_info": {
+          "package_name": "com.raman.expensetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBokQOPDAUIK4PFKgDkuxJQ-O2Jk_Tkvsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

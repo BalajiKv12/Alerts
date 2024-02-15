@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Alerts</string>
+    <string name="basic_alert_dialog">BASIC ALERT DIALOG</string>
+    <string name="with_icon_and_customization">WITH ICON AND CUSTOMIZATION</string>
+    <string name="with_items">WITH ITEMS</string>
+    <string name="with_radio_button">WITH RADIO BUTTON</string>
+    <string name="with_multi_choice_list">WITH MULTI CHOICE LIST</string>
+    <string name="with_style">WITH STYLE</string>
+    <string name="with_custom_style">WITH CUSTOM STYLE</string>
+    <string name="with_edit_text">WITH EDIT TEXT</string>
+    <string name="with_layout">WITH LAYOUT</string>
+    <string name="text_view">Text View</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="ok">Ok</string>
+    <string name="this_is_a_textview">This is a TextView</string>
+</resources>
